@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0px 20px;
+}
+nav .nav-left {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-left .nav-menu ul {
+  display: flex;
+  list-style-type: none;
+}
+nav .nav-left .nav-menu ul li {
+  margin-right: 10px;
+}
+nav .nav-right {
+  width: 8%;
+}
+nav .nav-right ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
