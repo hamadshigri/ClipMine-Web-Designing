@@ -1,52 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ClipMine</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>ClipMine</title>
-</head>
-
-<body>
-  <!-- Navbar -->
-  <nav>
-    <div class="nav-left">
-      <div class="logo">
-        <img src="./img/clipmine_logo_beta_226x50.png" alt="clipmine logo">
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-left">
+        <div class="logo">
+          <img src="./img/clipmine_logo_beta_226x50.png" alt="clipmine logo" />
+        </div>
+        <div class="nav-menu">
+          <ul>
+            <li>Home</li>
+            <li>Help</li>
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+            <li>
+              <select name="search" id="search">
+                <option value="">Search</option>
+              </select>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="nav-menu">
+      <div class="nav-right">
         <ul>
-          <li>Home</li>
-          <li>Help</li>
-          <li><i class="fa fa-search" aria-hidden="true"></i></li>
-          <li>Search </li>
+          <li>Blog</li>
+          <li>Login</li>
+          <li>Sign up</li>
         </ul>
       </div>
-    </div>
-    <div class="nav-right">
-      <ul>
-        <li>Blog</li>
-        <li>Login</li>
-        <li>Sign up</li>
-      </ul>
-    </div>
-  </nav>
-  <!-- Navbar End -->
+    </nav>
+    <!-- Navbar End -->
 
-  <!-- Main Content -->
-  <main>
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <div class="header-img">
+        <div class="header-content">
+          <h2>A Better Video Experience For The Web</h2>
+          <p>
+            ClipMine enables bloggers, creators and enthusiasts to tag content
+            inside online videos and create a more engaging video experience
+          </p>
+          <button>Sign Up</button>
+        </div>
+      </div>
+      <!-- End Hero Section -->
+      <!-- Discover What Matter Section -->
+      <div class="discover-what-matter">
+        <div class="discover-top-head">
+          <h2>Help your viewers discover what matter most to them!</h2>
+        </div>
+        <div class="discover-content">
+          <div class="discover-col-first">
+            <img src="xyz">
+            <p>
+              @01:00:20 Greatest thing about Bill and Steve's Relationship...
+            </p>
+            <div class="discover-details-1">
+              <p><i class="fa-solid fa-tag"></i> 4 people tagged</p>
+              <p><i class="fa-solid fa-share"></i> 170</p>
+            </div>
+            <div class="discover-details-2">
+              <p>Embed <i class="fa-solid fa-code"></i></p>
+              <p><i class="fa-solid fa-share"></i> Share</p>
+            </div>
+          </div>
 
-  </main>
-  <!-- Main Content End -->
+          <div class="discover-col-second">
+            <img src="./img/video-emma_280x187.png" alt="video-emma">
+            <p>01:59 Hook: Emma Stone Greatest thing about Bill..........</p>
+            <div class="discover-details-1">
+              <p><i class="fa-solid fa-tag"></i> 3 people tagged</p>
+              <p><i class="fa-solid fa-share"></i> 200</p>
+            </div>
+            <div class="discover-details-2">
+              <p>Embed <i class="fa-solid fa-code"></i></p>
+              <p><i class="fa-solid fa-share"></i> Share</p>
+            </div>
+          </div>
 
-  <!-- Footer -->
-  <footer>
+          <div class="discover-col-third">
+            <img src="xyz">
+            <p>
+              @13:34 Real Pip-Boy with 2nd screen experience Emma Stone ....
+            </p>
+            <div class="discover-details-1">
+              <p><i class="fa-solid fa-tag"></i> 2 people tagged</p>
+              <p><i class="fa-solid fa-share"></i> 305</p>
+            </div>
+            <div class="discover-details-2">
+              <p>Embed <i class="fa-solid fa-code"></i></p>
+              <p><i class="fa-solid fa-share"></i> Share</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Discover What Matter Section -->
+      <!--  -->
+    </main>
+    <!-- Main Content End -->
 
-  </footer>
-  <!-- Footer End -->
-</body>
-
+    <!-- Footer -->
+    <footer></footer>
+    <!-- Footer End -->
+  </body>
 </html>

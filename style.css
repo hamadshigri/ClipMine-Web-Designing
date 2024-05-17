@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+/* Nav Section */
 nav {
   background-color: #fff;
   width: 100%;
@@ -26,10 +28,128 @@ nav .nav-left .nav-menu ul li {
   margin-right: 10px;
 }
 nav .nav-right {
-  width: 8%;
+  width: 10%;
 }
 nav .nav-right ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
+.nav-menu {
+  margin-left: 20px;
+}
+.nav-menu ul #search {
+  border: none;
+}
+/* End Nav Section */
+
+/* Hero Section */
+main .header-img {
+  background-image: url('./img/hero-img.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .header-img .header-content {
+  width: 650px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+main .header-img .header-content h2 {
+  line-height: 1.2em;
+  font-weight: 300;
+  font-size: 42px;
+}
+main .header-img .header-content p {
+  line-height: 22px;
+  font-size: 18px;
+  width: 420px;
+}
+main .header-img .header-content button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 186, 254);
+  color: #fff;
+  border: none;
+  font-size: 14px;
+}
+
+/* End Hero Section */
+
+/* Discover What Matter Section */
+.discover-what-matter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 30px;
+}
+.discover-what-matter .discover-top-head h2 {
+  color: rgb(116, 116, 116);
+  font-weight: 300;
+}
+.discover-what-matter .discover-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.discover-what-matter .discover-content .discover-col-first {
+  width: 33%;
+  padding: 0px 30px;
+}
+.discover-what-matter .discover-content .discover-col-first p {
+  line-height: 25px;
+}
+.discover-what-matter .discover-content .discover-col-first .discover-details-1 {
+  display: flex;
+  gap: 20px;
+}
+.discover-what-matter .discover-content .discover-col-first .discover-details-2 {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(229, 229, 229);
+}
+.discover-what-matter .discover-content .discover-col-second {
+  width: 33%;
+  padding: 0px 30px;
+}
+.discover-what-matter .discover-content .discover-col-second img {
+  width: 100%;
+}
+.discover-what-matter .discover-content .discover-col-second p {
+  padding: 0px 45px 10px 0px;
+}
+.discover-what-matter .discover-content .discover-col-second .discover-details-1 {
+  display: flex;
+  gap: 10px;
+}
+.discover-what-matter .discover-content .discover-col-second .discover-details-2 {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(229, 229, 229);
+}
+.discover-what-matter .discover-content .discover-col-third {
+  width: 33%;
+  padding: 0px 30px;
+}
+.discover-what-matter .discover-content .discover-col-third p {
+  padding: 0px 45px 10px 0px;
+  line-height: 25px;
+}
+.discover-what-matter .discover-content .discover-col-third .discover-details-1 {
+  display: flex;
+  gap: 10px;
+}
+.discover-what-matter .discover-content .discover-col-third .discover-details-2 {
+  display: flex;
+  gap: 10px;
+  background-color: rgb(229, 229, 229);
+}
+/* End Discover What Matter Section */
