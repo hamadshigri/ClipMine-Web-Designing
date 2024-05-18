@@ -152,4 +152,92 @@ main .header-img .header-content button {
   gap: 10px;
   background-color: rgb(229, 229, 229);
 }
+.discover-bottom-text {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+}
+.discover-bottom-text p {
+  width: 50%;
+  text-align: center;
+}
 /* End Discover What Matter Section */
+
+/* Features Section */
+.feature-sec {
+  padding: 50px 30px;
+}
+.feature-sec h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  color: gray;
+}
+.feature-sec .feature-col {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.feature-sec .feature-col .feature-col-1, .feature-sec .feature-col .feature-col-2,  .feature-sec .feature-col .feature-col-3 {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 30px;
+}
+.feature-sec .feature-col .feature-col-1 h3, .feature-sec .feature-col .feature-col-2 h3, .feature-sec .feature-col .feature-col-3 h3  {
+  font-size: 20px;
+  font-weight: 300;
+}
+.feature-sec .feature-col .feature-col-1 p, .feature-sec .feature-col .feature-col-2 p, .feature-sec .feature-col .feature-col-3 p{
+  text-align: center;
+  font-size: 16px;
+}
+/* End Features Section */
+
+/* Benefits Section */
+.benefits-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.benefits-sec h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 300;
+  color: gray;
+}
+.benefits-sec .benefits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.benefits-sec .benefits-container .benefits-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.benefits-sec .benefits-container .benefits-row img {
+  width: 60px;
+}
+.benefits-sec .benefits-container .benefits-row .benefit-content {
+  margin-left: 80px;
+}
+.benefits-sec .benefits-container .benefits-row .benefit-content h3 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+/* End Benefits Section */
+
+
+/* ClipMine Video Collections */
+.video-collections-sec {
+  padding: 50px 0px;
+}
+/* End ClipMine Video Collections */
